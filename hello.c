@@ -1,34 +1,19 @@
 #include<stdio.h>
+#include<math.h>
+
+int squareroot(int number);
+
 int main() {
-    int n;
-    printf("enter n");
-    scanf("%d" , &n);
-int count = 0;
-for(int i = 1; i <= n; i++) {
-    for( int j = 1; j <= 100; j++) {
-        if( i % j == 0) {
-            count++;
-        }
-    }
-}
-if(count == 2) {
-    printf("%d ," , i);
-}
-return 0;
+ int number;
+ printf("enter number");
+ scanf("%d", &nunber);
+ printf(" power is :%f", pow(n, 2));
+ return 0;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
+int squareroot(int number) {
+    printf("%d" , number);
+}
 
 
 
